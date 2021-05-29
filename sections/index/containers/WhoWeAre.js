@@ -56,6 +56,9 @@ class WhoWeAre extends Component {
             overflow-y: hidden;
             width:100%;
           }
+          .who-we-are-section .section-title{
+            color:#703186
+          }
           .subtitle {
             margin: 1.5em;
           }

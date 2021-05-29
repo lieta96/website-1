@@ -32,6 +32,7 @@ const SocialBar = ( { alignSelf, iconsSize, width, mobileWidth, justifyContent, 
         align-self: ${alignSelf};
         display: flex;
         width: ${width};
+        margin: 0 auto;
       }
 			.social-bar a{
 				background-size: contain;

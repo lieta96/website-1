@@ -23,6 +23,7 @@ const WhatWeDo = () => (
         font-weight: bold;
         margin-bottom: 77px;
         text-transform: uppercase;
+        color:#8a509f;
       }
       .what-we-do-section div p{
         max-width: 1014px;

@@ -78,7 +78,7 @@ class Collaborate extends Component {
           .carousel {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-evenly;
             width: 100%;
           }
           .collaborate-container {
@@ -90,6 +90,7 @@ class Collaborate extends Component {
           .collaborate-container .section-title {
             align-self: center;
             margin-bottom: 53px;
+            color:#383737;
           }
           .collaborate-container .btn {
             margin-top:76px !important;
@@ -107,7 +108,6 @@ class Collaborate extends Component {
           }
           @media (max-width: 1024px) {
             .carousel {
-              display: block;
               width: 100%;
             }
             .collaborate-container .section-title {
@@ -117,9 +117,6 @@ class Collaborate extends Component {
               flex-direction: column;
               align-items: center;
               padding-bottom: 48px;
-            }
-            .collaborate-container {
-              width: 80%;
             }
             .flickity-prev-next-button.previous{
               margin-left: -35px;

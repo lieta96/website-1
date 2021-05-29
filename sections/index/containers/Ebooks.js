@@ -73,6 +73,9 @@ class Ebooks extends Component {
             flex-wrap: wrap;
             justify-content: space-evenly;
           }
+          .ebooks-section .section-title{
+            color:#703186
+          }
           @media screen and (max-width: 1024px) {
             .ebooks-section {
               padding: 24px 24px 48px 24px ;

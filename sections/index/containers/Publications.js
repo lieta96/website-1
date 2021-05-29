@@ -88,6 +88,9 @@ class Publications extends Component {
             padding-bottom: 85px;
             overflow-x: hidden;
           }
+          .publications-section .section-title{
+            color: #703186;
+          }
           .posts-container {
             margin-top: 43px;
             width: 100%;

@@ -60,6 +60,9 @@ render() {
           margin-bottom:0.5em;
           margin-top: 0.5em;
         }
+        .video-section .section-title{
+          color:#383737;
+        }
         .slider-wrapper {
           display: flex;
           justify-content: center;
